@@ -2,6 +2,7 @@
 This repository consists of some basic programs executed by the functional programming language haskell.
 * Factorial 
 * Fibonacci
+* Max of three
 <br/>
 
 # **Factorial :**
@@ -35,3 +36,9 @@ As usual the program starts from the main function, where we get the number upto
 
 <img src='https://i.pinimg.com/originals/9a/5f/bf/9a5fbfa150fdeab90a3fd4c39afedf54.gif' width=1000 height=300 align='center' alt='Fibonacci'>
 <br/>
+
+# **Max of three :**
+
+Max of three program specifies finding the maximum integer among the three given numbers in a list. The program consists of two functions, one executed with if-else and the other uses guard function in haskell. The guards are implemented by using the pipe symbol (|). Guards are evaluated top to bottom, the first True guard wins, otherwise in the Haskell system Prelude evaluates to true. And the function which consist of the guard are denoted by "'" at the end of the function name, for example, maxofthree'.
+
+The program starts from the main function, which gets the input of the three numbers in a list of strings and then they are converted to integers and these numbers are passed to the two functions to find the maximum of the three numbers and the maximum number is printed as the output.
