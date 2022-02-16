@@ -4,6 +4,8 @@ This repository consists of some basic programs executed by the functional progr
 * Fibonacci
 * Max of three
 * List comprehension
+* Insertion sort
+
 <br/>
 
 # **Factorial :**
@@ -54,11 +56,11 @@ In the second method, we are using the range function to create a list, the star
 
 In the main function, these two functions are called and executed sepearately, this is how this haskell program works for list comprehension.
 
-# ** Insertion sort :**
+# **Insertion sort :**
 
 Insertion sort in haskell is a quiet easy program, this is executed by using the module permutations from Data.List, a function insertionsort is declared which takes list of list and returns the same. We declare it as an empty list in the first time, the the elment x is made into the list if the list is empty, else if the list has another element y and x is lesser than equal to y it is placed before y or it is placed after y, these three condition are placed in the guard of the haskell program.
 
 As usual the program starting with main function where we declare a 2D list on our own and it is sent to the insertionsort function to get sorted.
 
-<img src='https://media.geeksforgeeks.org/wp-content/uploads/insertionsort.png' alt='Insertion Sort' align='center' height=300 width=1000>
+<img src='https://media.geeksforgeeks.org/wp-content/uploads/insertionsort.png' alt='Insertion Sort' align='center' height=500 width=1000>
 <br/>
