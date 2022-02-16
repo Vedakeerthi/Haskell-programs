@@ -3,6 +3,7 @@ This repository consists of some basic programs executed by the functional progr
 * Factorial 
 * Fibonacci
 * Max of three
+* List comprehension
 <br/>
 
 # **Factorial :**
@@ -42,3 +43,15 @@ As usual the program starts from the main function, where we get the number upto
 Max of three program specifies finding the maximum integer among the three given numbers in a list. The program consists of two functions, one executed with if-else and the other uses guard function in haskell. The guards are implemented by using the pipe symbol (|). Guards are evaluated top to bottom, the first True guard wins, otherwise in the Haskell system Prelude evaluates to true. And the function which consist of the guard are denoted by "'" at the end of the function name, for example, maxofthree'.
 
 The program starts from the main function, which gets the input of the three numbers in a list of strings and then they are converted to integers and these numbers are passed to the two functions to find the maximum of the three numbers and the maximum number is printed as the output.
+
+# **List comprehension :**
+
+List comprehension in haskell is making some changes to the list datatype, here we are reversing the list as a part of list comprehension. Reverse function is declared where it accepts a list and returns a list, the list which is accepted is the original list and it reversed by changing the index values of the list meanwhile the data of the index are reversed, and it returns the reversed list.
+
+The list is developed in two ways, in the first method the list is acquired manually, the inputs of the list are received as string characters then these are characters are concatenated inbetween the square brackets ([]), making it a list and the string characters are mapped into Integer type, thus the original list is acquired and printed, this is then sent to the reverse function to get the reversed list.
+
+In the second method, we are using the range function to create a list, the starting, step value and the end value of the range are obtained by string and they are converted into int and then a list is acquired by using the range method as start, start+step..till end. Thus the original list is sent to the reverse function to get the reversed list.
+
+In the main function, these two functions are called and executed sepearately, this is how this haskell program works for list comprehension.
+
+# ** 
