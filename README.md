@@ -6,6 +6,7 @@ This repository consists of some basic programs executed by the functional progr
 * List comprehension
 * Insertion sort
 * File operations openfile write
+* File operations system directory
 
 <br/>
 
@@ -46,6 +47,7 @@ As usual the program starts from the main function, where we get the number upto
 Max of three program specifies finding the maximum integer among the three given numbers in a list. The program consists of two functions, one executed with if-else and the other uses guard function in haskell. The guards are implemented by using the pipe symbol (|). Guards are evaluated top to bottom, the first True guard wins, otherwise in the Haskell system Prelude evaluates to true. And the function which consist of the guard are denoted by "'" at the end of the function name, for example, maxofthree'.
 
 The program starts from the main function, which gets the input of the three numbers in a list of strings and then they are converted to integers and these numbers are passed to the two functions to find the maximum of the three numbers and the maximum number is printed as the output.
+<br/>
 
 # **List comprehension :**
 
@@ -56,6 +58,7 @@ The list is developed in two ways, in the first method the list is acquired manu
 In the second method, we are using the range function to create a list, the starting, step value and the end value of the range are obtained by string and they are converted into int and then a list is acquired by using the range method as start, start+step..till end. Thus the original list is sent to the reverse function to get the reversed list.
 
 In the main function, these two functions are called and executed sepearately, this is how this haskell program works for list comprehension.
+<br/>
 
 # **Insertion sort :**
 
@@ -71,5 +74,13 @@ As usual the program starting with main function where we declare a 2D list on o
 Haskell program to open a file in the directory and read its contents and also ables to write contents into the file, we require two modules to do this one is the Data.Char module and the other is the System.IO module. In the main function we get the file path as input and send it to the function readandwrite to make further operations on the file.
 
 We open the file and set it to the readmode, which is stored in the variable handle, then the contents of the file are obtained by using the hGetContents from the handle, and the contens variable contains the contents of the file, these are obtained with the help of module functions. Once it is done we print the contents of the file. After it is done, we convert the text that is stored in contents to upper case using the inbuilt function toUpper, now we write this content into a new file, once this is done we print on screen, that the file is written and the contents of the new file.
+<br/>
+
+# **File operations system directory :**
+
+A simple haskell program to the copy the file, it requires a single moduel System.Directory to copy the file, in the main program the path of the old file is acquired and the new name for the file are also acquired once the required contents are acquired then the newfile is copied to the oldfile with the System.Directory function and once it is done, we print on the output screen that the file is copied.
+<br/>
 
 # ****
+
+
