@@ -7,7 +7,7 @@ This repository consists of some basic programs executed by the functional progr
 * Insertion sort
 * File operations openfile write
 * File operations system directory
-
+* Monoid inbuilt
 <br/>
 
 # **Factorial :**
@@ -81,6 +81,7 @@ We open the file and set it to the readmode, which is stored in the variable han
 A simple haskell program to the copy the file, it requires a single moduel System.Directory to copy the file, in the main program the path of the old file is acquired and the new name for the file are also acquired once the required contents are acquired then the newfile is copied to the oldfile with the System.Directory function and once it is done, we print on the output screen that the file is copied.
 <br/>
 
-# ****
+# **Monoid inbuilt :**
 
-
+Monoids are set equipped with an associative binary opertaion and an identity element. In this program the associative property and the commutative property of the inbuilt monoids are programmed. Three different monoids are declared, then the associative property of them are done and the commutative property of the monoid is executed with an empty list, these operations are done and printed consecutively.
+<br/>
