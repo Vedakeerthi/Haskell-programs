@@ -5,6 +5,7 @@ This repository consists of some basic programs executed by the functional progr
 * Max of three
 * List comprehension
 * Insertion sort
+* File operations openfile write
 
 <br/>
 
@@ -64,3 +65,11 @@ As usual the program starting with main function where we declare a 2D list on o
 
 <img src='https://media.geeksforgeeks.org/wp-content/uploads/insertionsort.png' alt='Insertion Sort' align='center' height=500 width=1000>
 <br/>
+
+# **File operations openfile write :**
+
+Haskell program to open a file in the directory and read its contents and also ables to write contents into the file, we require two modules to do this one is the Data.Char module and the other is the System.IO module. In the main function we get the file path as input and send it to the function readandwrite to make further operations on the file.
+
+We open the file and set it to the readmode, which is stored in the variable handle, then the contents of the file are obtained by using the hGetContents from the handle, and the contens variable contains the contents of the file, these are obtained with the help of module functions. Once it is done we print the contents of the file. After it is done, we convert the text that is stored in contents to upper case using the inbuilt function toUpper, now we write this content into a new file, once this is done we print on screen, that the file is written and the contents of the new file.
+
+# ****
