@@ -8,6 +8,7 @@ This repository consists of some basic programs executed by the functional progr
 * File operations openfile write
 * File operations system directory
 * Monoid inbuilt
+* Monoid userdefined
 <br/>
 
 # **Factorial :**
@@ -85,3 +86,9 @@ A simple haskell program to the copy the file, it requires a single moduel Syste
 
 Monoids are set equipped with an associative binary opertaion and an identity element. In this program the associative property and the commutative property of the inbuilt monoids are programmed. Three different monoids are declared, then the associative property of them are done and the commutative property of the monoid is executed with an empty list, these operations are done and printed consecutively.
 <br/>
+
+# **Monoid userdefined :**
+
+Inbuilt monoids are defined separately and manually, like each of the functions and each instance of the functions are declared separately, even the monoids are obtained by concatenating with an empty node these empty are declared previously, and thus monoids are created. Once these monoids are created, we check on their properties as associative property and commutative property, the same we checked previously on the inbuilt program. Thus we print the results of the properties of the monoids, which are specified manually.
+<br/>
+
